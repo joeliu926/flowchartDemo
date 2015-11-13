@@ -1,0 +1,81 @@
+body {
+	font-family: Helvetica; font-size: 90%; background-color: white; margin:0px;
+}
+.code {
+	margin: 1em; padding: 0.8em; border: 1px solid black; overflow: auto; font-family: courier; font-size: 8pt; background-color: rgb(228, 229, 239);
+}
+.section {
+	padding: 1em; color: rgb(51, 51, 51); font-family: helvetica; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: dotted; background-color: white;
+}
+.menu {
+	padding: 0.3em; border-radius: 0.5em; top: 1em; right: 1em; filter: alpha(opacity=80); position: fixed; z-index: 5000; opacity: 0.8; box-shadow: 2px 2px 19px #aaa; background-color: rgb(255, 255, 255); -o-box-shadow: 2px 2px 19px #aaa; -webkit-box-shadow: 2px 2px 19px #aaa; -moz-box-shadow: 2px 2px 19px #aaa;
+}
+.renderMode {
+	padding: 0.3em; border-radius: 0.5em;filter: alpha(opacity=80); position: fixed; z-index: 5000; opacity: 0.8; box-shadow: 2px 2px 19px #aaa; background-color: rgb(255, 255, 255); -o-box-shadow: 2px 2px 19px #aaa; -webkit-box-shadow: 2px 2px 19px #aaa; -moz-box-shadow: 2px 2px 19px #aaa;
+}
+.renderMode {
+	left: 5em; top: 3em; width: 4.5em; padding-bottom: 0.5em; height:1200px;  padding-top:20px; padding-left:10px;
+}
+#demo_emdrap a,.renderMode a,#explanation a {
+	padding: 0.3em; border-radius: 0.2em; color: rgb(1, 163, 198); font-family: helvetica; font-weight: bold; text-decoration: none;
+}
+#demo_emdrap a,.renderMode a,#explanation a:hover {
+	color: rgb(27, 145, 27); background-color: rgb(240, 240, 240);
+}
+#explanation a {
+	background-color: transparent;
+}
+#explanation a:hover {
+	text-decoration: underline;
+}
+.window {
+	cursor: pointer; box-shadow: 2px 2px 19px #aaa; -o-box-shadow: 2px 2px 19px #aaa; -webkit-box-shadow: 2px 2px 19px #aaa; -moz-box-shadow: 2px 2px 19px #aaa;
+}
+#explanation {
+	padding: 1em; border-radius: 1em; border: 0.25em solid rgb(221, 221, 221); top: 4em; width: 32em; right: 1em; color: black; font-family: helvetica; font-size: 90%; filter: alpha(opacity=90); position: absolute; z-index: 1000; opacity: 0.9; box-shadow: 2px 2px 19px #aaa; background-color: white; -o-box-shadow: 2px 2px 19px #aaa; -webkit-box-shadow: 2px 2px 19px #aaa; -moz-box-shadow: 2px 2px 19px #aaa; -moz-border-radius: 1em;
+}
+.selected {
+	color: rgb(189, 11, 11);
+}
+.section li {
+	list-style-type: none; 
+}
+li.bullet {
+	list-style-type: circle;
+}
+.section {
+	padding-left: 2em; font-size: 10pt;
+}
+.section.index {
+	padding-left: 0px;
+}
+.index {
+	width: 20em; overflow: auto; padding-left: 0.5em; font-size: 9pt; float: left; background-color: rgb(228, 238, 238);
+}
+.index li {
+	list-style-type: none;
+}
+.index ul {
+	padding-left: 1.5em;
+}
+.index h3 {
+	padding-left: 1.5em;
+}
+#demo_emdrap {
+	position: relative;
+}
+.sub {
+	margin-left: 1em;
+}
+.table td {
+	text-align: center;
+}
+path {
+	cursor: pointer;
+}
+._jsPlumb_endpoint {
+	cursor: pointer;
+}
+.hover {
+	box-shadow: 2px 2px 19px red; -o-box-shadow: 2px 2px 19px red; -webkit-box-shadow: 2px 2px 19px red; -moz-box-shadow: 2px 2px 19px red;
+}
