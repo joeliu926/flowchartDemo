@@ -1,0 +1,2 @@
+# flowchartDemo
+此项目为基于jsPlumb与jquery写一个画流程图的控件。提供了一系统列操作方法，详情请见readme.
