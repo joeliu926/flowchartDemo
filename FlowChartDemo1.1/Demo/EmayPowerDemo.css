@@ -1,0 +1,49 @@
+/*.w {
+  height:15px;	padding: 1em; border-radius: 0.5em; border: 1px solid rgb(52, 103, 137); width: 5em; filter: alpha(opacity=80); position: absolute; z-index: 4; cursor: move; opacity: 0.8; box-shadow: 2px 2px 19px #e0e0e0; -o-box-shadow: 2px 2px 19px #e0e0e0; -webkit-box-shadow: 2px 2px 19px #e0e0e0; -moz-box-shadow: 2px 2px 19px #e0e0e0; -moz-border-radius: 0.5em;
+}*/
+
+.w_lzemay {
+  height:52px; width:52px; position: absolute; z-index: 4; cursor: move; opacity: 0.8;
+}
+.aLabel {
+	padding: 0.3em; opacity: 0; background-color: white;
+}
+.ep_lzemay1 {
+	width: 16px; height: 16px;  float: right; left:35px;top:34px; cursor: pointer;position: absolute;
+}
+
+.ep_lzemay3 {
+	width: 16px; height: 16px;  float: right; left:35px;top:34px; cursor: pointer;position: absolute;  background-image:url(../Images/SPS/state_executed.png); background-repeat:no-repeat;
+}
+
+.ep_lzemay {
+	width: 16px; height: 16px;  float: right; left:35px;top:17px; cursor: pointer;position: absolute;  background-image:url(../Images/SPS/state_executing.png); background-repeat:no-repeat; display:none;
+}
+
+.ep_lzemay2 {
+	width: 16px; height: 16px;  float: right; left:35px;top:34px; cursor: pointer;position: absolute;  background-image:url(../Images/SPS/state_pre_executing.png); background-repeat:no-repeat;
+}
+
+.ep_lzemay4 {
+	width: 16px; height: 16px;  float: right; left:35px;top:34px; cursor: pointer;position: absolute;  background-image:url(../Images/SPS/break_pro_execute.png); background-repeat:no-repeat;
+}
+
+
+.ep_lzemayUP {
+	width: 76px; height:20px; float: right; left:-12px;top:-14px; cursor: pointer;position: absolute;  text-align:center; overflow:hidden;
+}
+
+.ep_lzemayDown {
+	width: 76px; left:-12px;top:54px; cursor: pointer;position: absolute;  text-align:center; overflow:hidden;
+}
+
+
+._jsPlumb_endpoint {
+	z-index: 3;
+	 margin-left:10px;
+}
+.dragHover {
+	border: 1px dotted red;
+}
+path {
+}
